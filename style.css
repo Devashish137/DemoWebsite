@@ -1,0 +1,74 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+}
+header>h1{
+    font-weight:bold;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 2rem;
+    
+}
+nav{
+    position: relative;
+    top: 1rem;
+    right: 3rem;
+    width: 20rem;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+.showCase_img{
+
+    width: 95vw;
+    height: 80vh;
+    margin: 1rem;
+    border-style: solid;
+    border-radius: 2vh;
+}
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+.container{
+    text-align:center;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    
+    
+}
+.container:hover{
+    border-style: groove;
+    background-color: black;
+    color: white;
+    border-radius: 5vh;
+}
+h1{
+    font-weight: normal;
+}
+footer{
+    background-color: black;
+    color: beige;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(255, 45, 45);
+    
+}
